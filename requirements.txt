@@ -1,0 +1,8 @@
+# core
+numpy
+pandas
+pytest
+
+# cuOpt (example for CUDA 13)
+libcuopt-cu13
+
