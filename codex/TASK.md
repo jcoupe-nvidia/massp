@@ -1,6 +1,6 @@
 # Task Brief for Codex
 
-You will be given docs/paper.pdf.
+You will be given docs/massp-paper.pdf.
 
 Deliverables:
 1) docs/equations.md: verbatim transcription of Eq. (1)-(11) with page numbers.
@@ -16,6 +16,6 @@ Deliverables:
 
 Constraints:
 - Follow codex/RULES.md strictly.
-- Use cuOpt LP/MILP Python API for modeling and solving.
+- Use cuOpt LP/MILP Python API for modeling and solving (https://docs.nvidia.com/cuopt/user-guide/latest/cuopt-python/lp-qp-milp/lp-qp-milp-api.html).
 - Every constraint must be auditable post-solve.
 
