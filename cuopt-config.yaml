@@ -1,0 +1,21 @@
+server:
+  ip: 127.0.0.1
+  port: 5000
+  polling_timeout: 180
+  repoll_tries: 900
+  repoll_interval: 1.0
+
+solver:
+  # Tuned defaults for this MASSP toy: keep strong objective quality while
+  # still terminating quickly in practice.
+  time_limit: 60
+  tolerances:
+    mip_relative_gap: 0.03
+
+  # Pass-through cuOpt MILP/LP parameters. Add any key supported by cuOpt.
+  # Examples:
+  # parameters:
+  #   random_seed: 7
+  #   max_solutions: 1
+  parameters: {}
+

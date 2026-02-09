@@ -2,7 +2,7 @@
 numpy
 pandas
 pytest
+PyYAML
 
-# cuOpt (example for CUDA 13)
-libcuopt-cu13
-
+# cuOpt self-hosted client
+cuopt-sh-client
